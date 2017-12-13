@@ -1,1 +1,2 @@
-export { ReduxController as Redux } from './redux/ReduxController';
+export { Redux } from './redux/ReduxDecorations';
+export { ReduxComponent } from './redux/ReduxComponent';
