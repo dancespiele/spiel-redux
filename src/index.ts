@@ -1,2 +1,2 @@
-export { Redux } from './redux/ReduxDecorations';
-export { ReduxComponent } from './redux/ReduxComponent';
+export { Redux } from './redux/ReduxDecoration';
+export { Store } from 'redux';

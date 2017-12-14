@@ -1,5 +1,4 @@
-export const actions = {
-    getTime: function(delay: number) {
+export function getTime(delay: number) {
         return {
             types: ['GET_TIME_REQUEST', 'GET_TIME_SUCCESS', 'GET_TIME_FAILURE'],
             promise: () => {
@@ -16,4 +15,3 @@ export const actions = {
             }
         }
     } 
-}

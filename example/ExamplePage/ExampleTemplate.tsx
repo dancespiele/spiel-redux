@@ -10,12 +10,15 @@ export function ExampleTemplate(this: ExampleController) {
             <div>
                 <p><b>It show the time with this {this.delay} when the button is clicked</b></p>
                 <button 
-                    onclick={(event: any)=> this.store.dispatch(this.actions.getTime(this.delay))}> Click
+                    onclick={(event: any)=> this.store.dispatch(this.getTime(this.delay) as any)}> Click
                 </button><br/>
-                <div> 
-                    <span>Time: {this.time ? this.time.toString(): ''}</span><br/>
-                    <span>Frozen: {this.frozen}</span>
-                </div>
+                {(this.time || this.frozen) ? 
+                    <div> 
+                        <span>Time: {this.time ? this.time.toString(): ''}</span><br/>
+                        <span>Frozen: {this.frozen.toString()}</span>
+                    </div> :
+                    <span>It isn't running yet</span>
+                }
             </div>
 
         </div>
