@@ -7,11 +7,7 @@
     middlewares: type Array[Middleware] (Optional - No compatible with compose arg)
     composeFuncitions: type Array[Function] (Optional- no compatible with middleware arg)
 
-<<<<<<< HEAD
-<span style='color:red'>WARNING:</span> If you write the middleware and compose arguments the compose will be ignored. If you want to pass compose it has to look like this.
-=======
-**WARNING**: If you write the middleware and compose arguments the compose will be ignore. If you want to pass compose it has to look like this.
->>>>>>> 520f737f8d584f37f12fa80e8b4207ff35558a97
+**WARNING**: If you write the middleware and compose arguments the compose will be ignored. If you want to pass compose it has to look like this.
 
 ```typescript
     @Template(ExampleTemplate)
