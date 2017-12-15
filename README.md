@@ -1,13 +1,13 @@
 # Pyrite Redux
-
 ## Redux decoration
-###Arguments
+
+### Arguments
 
     reducers: type ReducersMapObject (Require)
     middlewares: type Array[Middleware] (Optional - No compatible with compose arg)
     composeFuncitions: type Array[Function] (Optional- no compatible with middleware arg)
 
-<span style='color:red'>WARNING:</span> If you write the middleware and compose arguments the compose will be ignore. If you want to pass compose it has to look like this.
+**WARNING**: If you write the middleware and compose arguments the compose will be ignore. If you want to pass compose it has to look like this.
 
 ```typescript
     @Template(ExampleTemplate)
@@ -16,13 +16,13 @@
     }
 ```
 
-##About Redux
+## About Redux
 
 Read more [here](https://redux.js.org/docs/introduction/)
 
-##Examples
+## Examples
 
-###HTML code:
+### HTML code:
 
 ```jsx
     <div>
@@ -40,9 +40,9 @@ Read more [here](https://redux.js.org/docs/introduction/)
     </div>
 ```
 
-###JS code:
+### JS code:
 
-####Reducers
+#### Reducers
 
 ```typescript
     const timeState = {};
@@ -74,7 +74,7 @@ Read more [here](https://redux.js.org/docs/introduction/)
     }
 ```
 
-####Actions
+#### Actions
 
 ```typescript
     export function getTime(delay: number) {
@@ -96,7 +96,7 @@ Read more [here](https://redux.js.org/docs/introduction/)
       } 
 ```
 
-####Middlewares
+#### Middlewares
 
 ```typescript
     function timeMiddleware() {
@@ -124,7 +124,7 @@ Read more [here](https://redux.js.org/docs/introduction/)
     export const middlewares = [timeMiddleware];
 ```
 
-####Controler
+#### Controler
 
 ````typescript
     import {Component, Template, m} from 'pyrite';
