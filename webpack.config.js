@@ -39,7 +39,7 @@ module.exports = {
 			}
 		}),
 		new HtmlWebpackPlugin({
-			title: 'Pyrite Prism',
+			title: 'Pyrite Redux',
 		})
 	]
 }

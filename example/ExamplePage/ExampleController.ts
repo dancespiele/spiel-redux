@@ -11,6 +11,7 @@ export class ExampleController extends Component<any> {
     frozen: boolean= false;
     store: Store<{}>
     getTime = getTime;
+    
 
     $onCreate() {
         this.store.subscribe(()=>{

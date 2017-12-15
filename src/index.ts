@@ -1,2 +1,3 @@
 export { Redux } from './redux/ReduxDecoration';
-export { Store } from 'redux';
+export { bindActionCreators, Store, Action, Middleware, MiddlewareAPI,
+    ReducersMapObject, ActionCreator, ActionCreatorsMapObject, Reducer, AnyAction } from 'redux';
