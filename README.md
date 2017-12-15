@@ -3,11 +3,11 @@
 ## Redux decoration
 ###Arguments
 
-    reducers: type ReducersMapObject (Require)
+    reducers: type ReducersMapObject (Required)
     middlewares: type Array[Middleware] (Optional - No compatible with compose arg)
     composeFuncitions: type Array[Function] (Optional- no compatible with middleware arg)
 
-<span style='color:red'>WARNING:</span> If you write the middleware and compose arguments the compose will be ignore. If you want to pass compose it has to look like this.
+<span style='color:red'>WARNING:</span> If you write the middleware and compose arguments the compose will be ignored. If you want to pass compose it has to look like this.
 
 ```typescript
     @Template(ExampleTemplate)

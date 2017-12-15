@@ -46,7 +46,7 @@ export function ExampleTemplate(this: ExampleController) {
             
             <ul>
                 <li>
-                    <span><b>reducers</b>: type ReducersMapObject (Require)</span>
+                    <span><b>reducers</b>: type ReducersMapObject (Required)</span>
                 </li>
                 <li>
                     <span><b>middlewares</b>: type Array[Middleware] (Optional - No compatible with compose arg)</span>
@@ -56,7 +56,7 @@ export function ExampleTemplate(this: ExampleController) {
                 </li>
             </ul>
 
-            <p><b style="color: red">WARNING:</b> If you write the middleware and compose arguments the compose will be ignore.
+            <p><b style="color: red">WARNING:</b> If you write the middleware and compose arguments the compose will be ignored.
             If you want to pass compose it has to look like this.
             </p>
 
