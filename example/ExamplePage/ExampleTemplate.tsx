@@ -22,22 +22,24 @@ export function ExampleTemplate(this: ExampleController) {
                 }
             </div>
 
+            <h2>How use it:</h2>
+
             <h4>HTML code:</h4>
 
             <Prism language='jsx' code={examples.exampleHTML}></Prism>
 
-            <h4>JS code:</h4>
+            <h4>Typescript code:</h4>
 
-            <h5>Reducers</h5>
+            <h5>Reducers:</h5>
             <Prism language='typescript' code={examples.exampleReducers}></Prism>
 
-            <h5>Actions</h5>
+            <h5>Actions:</h5>
             <Prism language='typescript' code={examples.exampleActions}></Prism>
 
-            <h5>Middlewares</h5>
+            <h5>Middlewares:</h5>
             <Prism language='typescript' code={examples.exampleMiddlewares}></Prism>
 
-            <h5>Controler</h5>
+            <h5>Controler:</h5>
             <Prism language='typescript' code={examples.exampleCtrl}></Prism>
 
             <h4>Redux decoration</h4>

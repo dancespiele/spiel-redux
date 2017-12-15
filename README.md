@@ -20,7 +20,7 @@
 
 Read more [here](https://redux.js.org/docs/introduction/)
 
-## Examples
+## How use it
 
 ### HTML code:
 
@@ -40,9 +40,9 @@ Read more [here](https://redux.js.org/docs/introduction/)
     </div>
 ```
 
-### JS code:
+### Typescript code:
 
-#### Reducers
+#### Reducers:
 
 ```typescript
     const timeState = {};
@@ -74,7 +74,7 @@ Read more [here](https://redux.js.org/docs/introduction/)
     }
 ```
 
-#### Actions
+#### Actions:
 
 ```typescript
     export function getTime(delay: number) {
@@ -96,7 +96,7 @@ Read more [here](https://redux.js.org/docs/introduction/)
       } 
 ```
 
-#### Middlewares
+#### Middlewares:
 
 ```typescript
     function timeMiddleware() {
@@ -124,7 +124,7 @@ Read more [here](https://redux.js.org/docs/introduction/)
     export const middlewares = [timeMiddleware];
 ```
 
-#### Controler
+#### Controler:
 
 ```typescript
     import {Component, Template, m} from 'pyrite';
