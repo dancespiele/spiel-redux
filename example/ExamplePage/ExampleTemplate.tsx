@@ -9,7 +9,7 @@ export function ExampleTemplate(this: ExampleController) {
             <h1>Pyrite Redux example</h1>
 
             <div>
-                <p><b>It show the time with this {this.delay} when the button is clicked</b></p>
+                <p><b>It show the time with this {this.delay} dalay when the button is clicked</b></p>
                 <button 
                     onclick={(event: any)=> this.store.dispatch(this.getTime(this.delay) as any)}> Click
                 </button><br/>
