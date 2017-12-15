@@ -126,7 +126,7 @@ Read more [here](https://redux.js.org/docs/introduction/)
 
 #### Controler
 
-````typescript
+```typescript
     import {Component, Template, m} from 'pyrite';
     import {Redux, Store} from '../../src/index';
     import {ExampleTemplate} from './ExampleTemplate';
@@ -151,4 +151,3 @@ Read more [here](https://redux.js.org/docs/introduction/)
         }
     }
 ```
-
