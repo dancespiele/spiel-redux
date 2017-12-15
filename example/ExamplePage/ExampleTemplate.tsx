@@ -67,7 +67,7 @@ export function ExampleTemplate(this: ExampleController) {
                 }
             `}></Prism>
 
-            <h4>Redux decoration</h4>
+            <h4>About Redux</h4>
 
             <p>Read more <a href="https://redux.js.org/docs/introduction/">here</a></p>
             
