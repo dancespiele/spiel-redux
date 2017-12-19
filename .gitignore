@@ -3,3 +3,4 @@ lib
 dist
 package-lock.json
 coverage
+.nyc_output

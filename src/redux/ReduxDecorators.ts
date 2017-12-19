@@ -27,5 +27,5 @@ const addReducers = (reducers: ReducersMapObject,
             ? createStore(reduce, compose(...composeFunctions)) 
             : createStore(reduce);
     }
-    return store
+    return store;
 }
